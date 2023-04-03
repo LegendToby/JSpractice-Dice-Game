@@ -1,0 +1,84 @@
+/* HTML Elements */
+body {
+    background-color: black;
+}
+
+/* Repetitive Styles */
+
+.text-styles {
+    color: #4ECCA3;
+}
+
+/* Top Area */
+.refresh-me-title {
+    text-align: center;
+    font-size: 8rem;
+    font-family: 'Lobster', cursive;
+}
+
+/* Middle Area */
+
+#middle-area{
+    text-align: center;
+}
+
+.player {
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.player1 {
+    margin-right: 50px;
+}
+
+.player2 {
+    margin-left: 70px;
+    position: relative;
+    left: 40px;
+}
+
+/* Bottom Area */
+#bottom-area {
+    text-align: center;
+}
+
+.dice-img {
+    margin-left: 30px;
+    width: 10%;
+    padding: 20px 40px 20px 50px;
+    border: solid 3px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+/* Footer Area */
+#footer-area {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.footer-copyright {
+    color: white;
+}
+
+.icons {
+    color: white;
+    padding: 0 5px 0 5px;
+}
+
+
+/* Media Query */
+@media (max-width: 1028px) {
+    .player1 {
+        margin-right: 10px;
+        position: relative;
+        left: 20px;
+    }
+    
+    .player2 {
+        margin-left: 40px;
+        position: relative;
+        left: 20px;
+    }
+}
